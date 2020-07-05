@@ -1,0 +1,45 @@
+@import "./variables";
+@import "./mixin";
+nav {
+  @include flexCenter();
+  min-height: 14vh;
+  margin: 0 5rem 0 2rem;
+  ul {
+    display: flex;
+    margin-left: 3rem;
+    flex: 1;
+    .links {
+      margin-left: 2rem;
+      a {
+        margin-left: 5rem;
+        i {
+          margin-right: 1rem;
+        }
+        &:hover {
+          color: $header-hover;
+          transition: 0.5s ease;
+        }
+      }
+    }
+  }
+}
+a {
+  text-decoration: none;
+  color: $links;
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+i {
+  font-size: 1.3rem;
+}
+.right-menu {
+  a:nth-child(1) {
+    margin-right: 4rem;
+  }
+  a {
+    &:hover {
+      color: $header-hover;
+      transition: 0.5s ease;
+    }
+  }
+}

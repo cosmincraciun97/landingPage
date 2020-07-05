@@ -1,0 +1,20 @@
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  .hamburger-line1 {
+    border: 2px solid $burger-color;
+    width: 2rem;
+    margin-bottom: 0.25rem;
+  }
+  .hamburger-line2 {
+    border: 2px solid $burger-color;
+    width: 2rem;
+    margin-bottom: 0.25rem;
+  }
+  .hamburger-line3 {
+    border: 2px solid $burger-color;
+    width: 2rem;
+    margin-bottom: 0.25rem;
+  }
+}
